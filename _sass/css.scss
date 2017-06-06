@@ -1,0 +1,187 @@
+*{padding:0;margin:0;}
+html,body{height:100%;font-size:14px;color:#707070;
+background:gray;font-family: 'iconfont';}
+
+a{text-decoration:none;color:#404040;}
+
+
+
+
+
+.menu{width:88%;height:100%;background:#fff;
+  position:absolute;top:0;z-index:6;
+   display:none;}
+.menu-top{width:100%;height:150px;background:#fafafa;
+ border-bottom:3px solid #d2d2d2;position:relative;}
+.wrapp{width:100%;height:40px;position:absolute;
+      top:40px;}
+.hd{width:200px;height:40px;font-size:3.2rem;
+  color:#404040;
+    margin-left:30px;float:left;position:relative;}
+.hd span{font-size:20px;position:absolute;left:64px;
+	top:10px;display:block;}
+.mon{width:90%;height:20px;font-size:9px;
+     position:absolute;bottom:0;left:30px;
+    color:#acacac;}
+.mon-g{width:30px;height:30px;float:right;
+  position:absolute;right:20px;top:-10px;
+   background:url(../image/06.gif);}
+
+.menu-center{width:100%;height:200px;margin-top:5px;
+ border-top:2px solid #ededed;position:relative;
+ background:#fff;}
+.side{width:100%;height:66px;display:block;
+ position:relative}
+.side-br{width:50px;height:50px;font-size:2rem;
+  position:absolute;left:30px;top:10px;
+color:#3f4247;}
+.side-li{position:absolute;left:90px;top:15px;
+    font-size:20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hot{width:100%;position:relative;
+  z-index:2;}
+
+.head{width:100%;height:58px;background:#fff;
+ position:relative;}
+
+.head-left{width:50%;
+	position:absolute;left:20px;top:10px;
+    font-size:2rem;color:#383b40;
+}
+
+.head-left span{position:absolute;top:0px;left:60px;
+	font-size:23px;color:#444444;}
+
+
+.head-right{width:40%;font-size:1.6rem;
+	position:absolute;right:0px;
+	top:10px;color:#3f4247;}
+.head-right a{position:absolute;right:70px;top:2px;
+  font-weight:bold;}
+.head-right span{position:absolute;right:20px;top:0;
+	font-size:2rem;}
+
+
+
+
+
+
+
+.top{width:100%;height:auto;overflow:hidden;}
+.logo{width:100%;height:100%;overflow:hidden;}
+
+.logo-si{display:block;height:20px;color:#5a5a5a;
+ font-size:12px;background:#fff;}
+.logo-si span{height:20px;text-align:center;display:block;}
+
+
+ .cont{width:95.2%;padding:10px;
+ background:#eeeeee;}
+ .cont-ci{width:100%;}
+.left{width:100%;height:auto;margin-bottom:15px; 
+background:#fff;overflow:hidden;
+box-shadow: 0px 2px 5px #c1c1c1;
+    border-radius: 2px;}
+
+ .list{height:58px;
+  margin:18px 18px 0 18px;}
+
+.list-lt{width:40px;height:55px;padding:0 16px 0 0;
+  float:left; border-radius:30px;
+ background:#fff;}
+.lt{width:40px;height:40px;}
+
+
+.list-ct{width:110px;height:41px;float:left;}
+.ct{color:#5A5A5A;font-weight:bold;overflow:hidden;}
+.ct-z{color:#9a9a9a;font-size:12px;height:22px;
+     line-height:22px;}
+.list-rt{float:right; font-size: 12px;
+    padding-top: 10px;
+    color: #9a9a9a;}
+
+
+ .right{height:28px;margin:18px;color:#404040;
+  font-size:18px;font-weight:bold;display:block;}
+
+  .tab{height:46px;margin:0 18px 0 18px;
+   color:#9a9a9a;line-height:23px;}
+
+
+.mag{height:10px;margin:18px;position:relative;}
+
+.maga{width:14px;height:14px;
+  background:url(../image/08.gif)no-repeat;
+  background-size:100%;
+  position:absolute;right:106px;}
+.magb{position:absolute;right:75px;top:-3px;
+font-size:12px;}
+.mag-x{width:14px;height:14px;
+  background:url(../image/09.gif)no-repeat;
+  background-size:100%;
+  position:absolute;right:33px;}
+.mag-y{position:absolute;right:4px;top:-3px;
+font-size:12px;}
+
+
+
+
+
+.bottom{width:100%;height:60px;background:#fff;
+  position:fixed;bottom:0;z-index:5;
+ }
+.bottom-s{width:33.3%;height:60px;
+    float:left;position:relative;}
+
+.hid{width:35px;height:20px;font-size:2rem;
+  color:#000;position:absolute;left:50px;top:3px;}
+.hid2{width:35px;height:20px;font-size:1.5rem;
+  color:#757575;position:absolute;left:50px;top:7px;}
+.hid3{width:35px;height:20px;font-size:1.7rem;
+  color:#757575;position:absolute;left:50px;top:4px;}
+
+
+
+.hid span{display:block;width:40px;height:20px;
+  color:#000;font-size:18px;position:absolute;
+  left:-4px;top:30px;}
+.hid2 span{display:block;width:40px;height:20px;
+  color:#757575;font-size:18px;position:absolute;
+  left:-6px;top:25px;}
+.hid3 span{display:block;width:40px;height:20px;
+  color:#757575;font-size:17px;position:absolute;
+  left:-6px;top:30px;}
+
+
+
+@media screen and (max-width:375px) { 
+    .menu-center{height:180px;}
+    .side{height:60px;}
+    .cont{width:94.2%;}
+}
+
+
+@media screen and (max-width:320px) { 
+    .menu-top{height:130px;}
+    .menu-center{height:150px;}
+    .cont{width:93.2%;}
+    .side{height:50px;}
+    .mon-g{width:20px;height:20px;
+     background:url(../image/07.gif);
+     top:0;}
+}

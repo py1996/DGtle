@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+	<link rel=stylesheet href=../_sass/css1.css>
+	<link rel=stylesheet href=../iconfont/iconfont.css>
+	<title>登录页</title>
+</head>
+<body>
+ <div class="tit">
+   <div class="top">
+       <div class="top-con">
+	      <div class="head-left">&#xe6df;</div>
+	       <span>登录数字尾巴</span>
+	      </div>
+	   </div>
+	 <div class="cont">
+            <input type="text" class="cont-pl" placeholder="&nbsp;用户名&nbsp;/&nbsp;手机号&nbsp;/&nbsp;邮箱">
+            <input type="text" class="cont-xl" style="color:#fff" placeholder="&nbsp;密码">
+
+        <div class="btn">
+           <div class="btn-bg">
+             <img src="../image/04.gif">
+             </div>
+            <input type="button" value="尾巴数字账号登录" class="cont-ml">
+         </div>
+	 </div>
+	 <a href="##" class="reg">注册新账号</a>
+	 <a href="##" class="reg-right">忘记密码？</a>
+      
+      <div class="vote-ml">
+          <span>&#xe606;</span>
+	       <input type="button" value="微信账号登录">
+	       <div class="foot">用户名不能为空</div>
+	  </div>
+
+	  <div class="vote-xl">
+	      <span>&#xe661;</span>
+	         <input type="button" value="微博账号登录">
+	        </div>
+	  </div>
+
+ 
+</body>
+</html>
+<script src="../js/jquery.min.js"></script>
+<script>
+ $(function(){
+      $(".cont-ml").click(function(){
+       $(".foot").fadeIn(1000);
+      })
+    })
+</script>

@@ -1,0 +1,264 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  height: 100%;
+  font-family: 'iconfont';
+  font-size: 14px;
+  color: #707070;
+  background: url(../image/05.jpg) no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed; }
+
+a {
+  text-decoration: none; }
+
+input {
+  outline: none; }
+
+.tit {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: relative; }
+
+.top {
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  font-size: 23px;
+  margin: 30px;
+  float: left; }
+
+.head-left {
+  width: 65px;
+  float: left;
+  font-family: 'iconfont';
+  font-size: 2rem; }
+
+.cont {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-left: 30px;
+  float: left;
+  color: #fff; }
+
+.cont-pl {
+  margin-bottom: 30px;
+  color: #dfdddb;
+  width: 85%;
+  height: 50px;
+  border-bottom: 2px solid #fff;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-size: 20px;
+  background: transparent; }
+
+::-webkit-input-placeholder {
+  color: #fff; }
+
+.cont-xl {
+  width: 85%;
+  height: 50px;
+  border-style: none;
+  border-bottom: 2px solid #fff;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  color: #dfdddb;
+  font-size: 20px;
+  background: transparent; }
+
+.cont-ml {
+  width: 100%;
+  height: 50px;
+  border-style: none;
+  color: #dcdcdd;
+  background: #3f4247;
+  font-size: 20px;
+  border-radius: 7px;
+  outline: none; }
+
+.btn {
+  width: 85%;
+  height: 50px;
+  margin-top: 50px;
+  position: relative; }
+
+.btn-bg {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 55px;
+  top: 12px;
+  float: left; }
+
+.reg {
+  color: #bfbfbf;
+  width: 100px;
+  height: 40px;
+  display: block;
+  margin-left: 30px;
+  font-size: 18px;
+  margin-top: 20px;
+  float: left; }
+
+.reg-right {
+  color: #bfbfbf;
+  width: 120px;
+  height: 40px;
+  display: block;
+  float: right;
+  margin-top: 20px;
+  font-size: 18px;
+  margin-right: 10px; }
+
+.vote-ml {
+  width: 85%;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 100px;
+  position: relative;
+  float: left; }
+
+.vote-ml span {
+  font-size: 2rem;
+  position: absolute;
+  left: 70px;
+  top: 7px;
+  color: #fff; }
+
+.vote-ml input {
+  width: 100%;
+  height: 50px;
+  border-style: none;
+  color: #e6f5e5;
+  background: green;
+  font-size: 20px;
+  border-radius: 7px; }
+
+.vote-xl {
+  width: 85%;
+  height: 50px;
+  margin-left: 30px;
+  margin-top: 30px;
+  position: relative;
+  float: left; }
+
+.vote-xl span {
+  font-size: 2rem;
+  position: absolute;
+  left: 70px;
+  top: 5px;
+  color: #fff;
+  z-index: 2; }
+
+.vote-xl input {
+  width: 100%;
+  height: 50px;
+  border-style: none;
+  color: #f9cacf;
+  background: red;
+  font-size: 20px;
+  border-radius: 7px;
+  float: left;
+  position: relative;
+  z-index: 1; }
+
+.foot {
+  color: #fff;
+  width: 160px;
+  height: 40px;
+  background: #000;
+  position: absolute;
+  left: 100px;
+  top: 42px;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 4px;
+  line-height: 40px;
+  z-index: 4;
+  display: none; }
+
+@media screen and (max-width: 375px) {
+  .cont {
+    margin: 20px 30px 30px 30px; }
+
+  .vote-ml {
+    margin-top: 40px; }
+
+  .vote-ml span {
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    font-size: 1.8rem; }
+
+  .vote-xl span {
+    position: absolute;
+    left: 60px;
+    top: 10px;
+    font-size: 1.8rem; }
+
+  .vote-xl {
+    margin-top: 20px; }
+
+  .btn {
+    margin-top: 40px; }
+
+  .btn-bg {
+    left: 40px;
+    top: 14px; }
+
+  .foot {
+    left: 79px; }
+
+  .reg {
+    margin-top: 0px; }
+
+  .reg-right {
+    margin-top: 0px; } }
+@media screen and (max-width: 320px) {
+  .cont {
+    margin: 0px 25px 20px 25px; }
+
+  .cont-pl {
+    margin-bottom: 20px; }
+
+  .btn {
+    margin-top: 30px; }
+
+  .reg-right {
+    margin-top: 0; }
+
+  .reg {
+    margin-top: 0; }
+
+  .vote-ml {
+    margin-top: 30px; }
+
+  .vote-xl {
+    margin-top: 20px; }
+
+  .vote-ml span {
+    position: absolute;
+    left: 40px;
+    top: 7px; }
+
+  .vote-xl span {
+    position: absolute;
+    left: 40px;
+    top: 7px; }
+
+  .foot {
+    left: 55px; }
+
+  .btn-bg {
+    left: 30px; } }
+@media screen and (max-width: 360px) {
+  .cont-pl {
+    margin-bottom: 20px; } }
+
+/*# sourceMappingURL=css1.css.map */
